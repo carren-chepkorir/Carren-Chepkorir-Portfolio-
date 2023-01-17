@@ -1,0 +1,67 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: rgb(248,235,235);
+}
+a{
+    color: grey;
+
+}
+.arrow{
+    text-transform: uppercase;
+}
+.inputs{
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 60px;
+}
+h1{
+    color: rgb(82,76,76);
+}
+input{
+    width: 100%;
+    padding: 20px;
+    margin-block: .5rem;
+    outline: none;
+    border: none;
+}
+.message{
+    padding-bottom: 10rem;
+}
+button{
+    padding: 10px 40px;
+    background: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    border: 1px solid pink;
+    color: black;
+    text-transform: uppercase;
+}
+.messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    display: block;
+    background-color: lightblue;
+    color: black;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }

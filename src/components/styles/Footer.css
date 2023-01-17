@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    min-height: 30vh;
+    bottom: 0;
+   
+}
+.footer-content p{
+   font-size: 20px;
+   text-align: center;
+}
+.footer-img img{
+width: 100%;
+}

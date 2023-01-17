@@ -1,0 +1,51 @@
+.tech-stack{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:  #f8efef;
+  
+   
+   
+}
+.stack h1{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    text-transform: uppercase;
+    
+}
+.description p{
+text-align: center;
+color: black;
+font-weight: bold;
+line-height: 3rem;
+font-size: 20px;
+
+
+}
+.list{
+   position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    margin-left: 170px;
+   
+}
+.icon1{
+    font-size: 35px ;
+    cursor: pointer;
+    color: black;
+}
+.icon1:hover{
+    color: firebrick;
+}
+.list-container h1{
+    font-weight: bold;
+
+
+}
+.list-container p{
+line-height: 2rem;
+font-size: 20px;
+
+}
